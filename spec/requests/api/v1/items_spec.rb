@@ -14,19 +14,20 @@ describe 'get request to api/v1/items' do
       image_url: "http://robohash.org/2.png?set=set2&bgset=bg1&size=200x200"
     )
 
-    expected =
+    expected = [
       {
-        'item_id': item1.id,
+        'id': item1.id,
         'name': item1.name,
         'description': item1.description,
         'image_url': item1.image_url
+      },
+      {
+        'id': item2.id,
+        'name': item2.name,
+        'description': item2.description,
+        'image_url': item2.image_url
       }
-      # {
-      #   'item_id': item2.id,
-      #   'name': item2.name,
-      #   'description': item2.description,
-      #   'image_url': item2.image_url
-      # }
+    ]
 
     # And each item has an id, name, description, and image_url but not the created_at or updated_at
 
