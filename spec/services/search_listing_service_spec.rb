@@ -23,7 +23,8 @@ describe SearchListingService do
 
     context '#top_cuisines_search' do
       it 'returns an array of hashes of cuisines', vcr: true do
-        expect(subject.top_cuisines_search).to eq()
+        raw_search = subject.top_cuisines_search
+        expect(raw_search.first[:cuisine][:cuisine_name]).to eq('Afghani')
       end
     end
   end

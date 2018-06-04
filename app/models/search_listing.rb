@@ -9,6 +9,12 @@ class SearchListing
     end
   end
 
+  def top_restaurants
+    service.top_restaurants_search.map do |restaurant|
+      Restaurant.new(restaurant)
+    end
+  end
+
   private
     attr_reader :query
 

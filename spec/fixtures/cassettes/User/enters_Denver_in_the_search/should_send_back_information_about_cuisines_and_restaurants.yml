@@ -53,27 +53,27 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Expires:
-      - Mon, 04 Jun 2018 19:23:17 GMT
+      - Mon, 04 Jun 2018 19:38:13 GMT
       Pragma:
       - no-cache
       Date:
-      - Mon, 04 Jun 2018 19:23:17 GMT
+      - Mon, 04 Jun 2018 19:38:13 GMT
       Content-Length:
       - '688'
       Connection:
       - keep-alive
       Set-Cookie:
-      - AKA_A2=A; expires=Mon, 04-Jun-2018 20:23:17 GMT; path=/; domain=zomato.com;
+      - AKA_A2=A; expires=Mon, 04-Jun-2018 20:38:13 GMT; path=/; domain=zomato.com;
         secure; HttpOnly
-      - PHPSESSID=1fb4632dc8a09f94cdd98c938512dd51012ebffe; path=/; domain=.zomato.com;
+      - PHPSESSID=8c8378bb102110de48e78ff57917c523f39efdc9; path=/; domain=.zomato.com;
         secure; HttpOnly
-      - csrf=004db218abb3d3e071ca77631dbfdc5e; expires=Mon, 04-Jun-2018 19:47:16 GMT;
+      - csrf=0f3f50e989ef77c742f7fb0c4d8d8884; expires=Mon, 04-Jun-2018 20:02:12 GMT;
         Max-Age=1440; path=/; domain=.zomato.com
-      - fbcity=305; expires=Sat, 01-Dec-2018 19:23:16 GMT; Max-Age=15552000; path=/;
+      - fbcity=305; expires=Sat, 01-Dec-2018 19:38:12 GMT; Max-Age=15552000; path=/;
         domain=.zomato.com; secure
-      - fbtrack=9bb50717d90c0cebf5c8a34784122ddb; expires=Thu, 30-May-2019 19:23:16
+      - fbtrack=799ca81e1406b3886624a63ba71aba95; expires=Thu, 30-May-2019 19:38:12
         GMT; Max-Age=31104000; path=/; domain=.zomato.com; secure
-      - zl=en; expires=Sat, 01-Dec-2018 19:23:16 GMT; Max-Age=15552000; path=/; domain=.zomato.com;
+      - zl=en; expires=Sat, 01-Dec-2018 19:38:12 GMT; Max-Age=15552000; path=/; domain=.zomato.com;
         secure
       Cache-Control:
       - max-age=0, no-cache, no-store, no-transform
@@ -85,7 +85,7 @@ http_interactions:
         States","country_flag_url":"https:\/\/b.zmtcdn.com\/images\/countries\/flags\/country_216.png","should_experiment_with":0,"discovery_enabled":1,"has_new_ad_format":0,"is_state":0,"state_id":74,"state_name":"Colorado","state_code":"CO"},{"id":9311,"name":"Denver
         City, TX","country_id":216,"country_name":"United States","country_flag_url":"https:\/\/b.zmtcdn.com\/images\/countries\/flags\/country_216.png","should_experiment_with":0,"discovery_enabled":0,"has_new_ad_format":0,"is_state":0,"state_id":111,"state_name":"Texas","state_code":"TX"}],"status":"success","has_more":0,"has_total":0}'
     http_version: 
-  recorded_at: Mon, 04 Jun 2018 19:23:17 GMT
+  recorded_at: Mon, 04 Jun 2018 19:38:13 GMT
 - request:
     method: get
     uri: https://developers.zomato.com/api/v2.1/cuisines?city_id=305
@@ -139,27 +139,27 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Expires:
-      - Mon, 04 Jun 2018 19:23:17 GMT
+      - Mon, 04 Jun 2018 19:38:13 GMT
       Pragma:
       - no-cache
       Date:
-      - Mon, 04 Jun 2018 19:23:17 GMT
+      - Mon, 04 Jun 2018 19:38:13 GMT
       Content-Length:
       - '6024'
       Connection:
       - keep-alive
       Set-Cookie:
-      - AKA_A2=A; expires=Mon, 04-Jun-2018 20:23:17 GMT; path=/; domain=zomato.com;
+      - AKA_A2=A; expires=Mon, 04-Jun-2018 20:38:13 GMT; path=/; domain=zomato.com;
         secure; HttpOnly
-      - PHPSESSID=e4d59a6e690a4f0f5feccdb533e5b4120a5ce89b; path=/; domain=.zomato.com;
+      - PHPSESSID=24c847ee6373a2cfa990f7f3be2d127309de076c; path=/; domain=.zomato.com;
         secure; HttpOnly
-      - csrf=7ff063ad0470e9541817adb3a37c4155; expires=Mon, 04-Jun-2018 19:47:17 GMT;
+      - csrf=9cc2f019264b46c773fec9668ac32482; expires=Mon, 04-Jun-2018 20:02:13 GMT;
         Max-Age=1440; path=/; domain=.zomato.com
-      - fbcity=305; expires=Sat, 01-Dec-2018 19:23:17 GMT; Max-Age=15552000; path=/;
+      - fbcity=305; expires=Sat, 01-Dec-2018 19:38:13 GMT; Max-Age=15552000; path=/;
         domain=.zomato.com; secure
-      - fbtrack=c820d1640cb301e5053dda44f0c73bb5; expires=Thu, 30-May-2019 19:23:17
+      - fbtrack=2d0aabcaefbd10ab0e5df6d1fb6ab21a; expires=Thu, 30-May-2019 19:38:13
         GMT; Max-Age=31104000; path=/; domain=.zomato.com; secure
-      - zl=en; expires=Sat, 01-Dec-2018 19:23:17 GMT; Max-Age=15552000; path=/; domain=.zomato.com;
+      - zl=en; expires=Sat, 01-Dec-2018 19:38:13 GMT; Max-Age=15552000; path=/; domain=.zomato.com;
         secure
       Cache-Control:
       - max-age=0, no-cache, no-store, no-transform
@@ -184,5 +184,192 @@ http_interactions:
         Food"}},{"cuisine":{"cuisine_id":267,"cuisine_name":"South African"}},{"cuisine":{"cuisine_id":972,"cuisine_name":"South
         American"}},{"cuisine":{"cuisine_id":471,"cuisine_name":"Southern"}},{"cuisine":{"cuisine_id":966,"cuisine_name":"Southwestern"}},{"cuisine":{"cuisine_id":89,"cuisine_name":"Spanish"}},{"cuisine":{"cuisine_id":141,"cuisine_name":"Steak"}},{"cuisine":{"cuisine_id":177,"cuisine_name":"Sushi"}},{"cuisine":{"cuisine_id":997,"cuisine_name":"Taco"}},{"cuisine":{"cuisine_id":190,"cuisine_name":"Taiwanese"}},{"cuisine":{"cuisine_id":179,"cuisine_name":"Tapas"}},{"cuisine":{"cuisine_id":163,"cuisine_name":"Tea"}},{"cuisine":{"cuisine_id":964,"cuisine_name":"Teriyaki"}},{"cuisine":{"cuisine_id":150,"cuisine_name":"Tex-Mex"}},{"cuisine":{"cuisine_id":95,"cuisine_name":"Thai"}},{"cuisine":{"cuisine_id":93,"cuisine_name":"Tibetan"}},{"cuisine":{"cuisine_id":142,"cuisine_name":"Turkish"}},{"cuisine":{"cuisine_id":451,"cuisine_name":"Ukrainian"}},{"cuisine":{"cuisine_id":308,"cuisine_name":"Vegetarian"}},{"cuisine":{"cuisine_id":641,"cuisine_name":"Venezuelan"}},{"cuisine":{"cuisine_id":99,"cuisine_name":"Vietnamese"}}]}'
     http_version: 
-  recorded_at: Mon, 04 Jun 2018 19:23:17 GMT
+  recorded_at: Mon, 04 Jun 2018 19:38:13 GMT
+- request:
+    method: get
+    uri: https://developers.zomato.com/api/v2.1/cities?q=Denver
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.2
+      User-Key:
+      - "<ZOMATO_API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block; report=https://www.zomato.com/cspreport.php
+      Content-Security-Policy:
+      - frame-ancestors https://*.nearbuystag.in https://*.nearbuy.com 'self'; default-src
+        *; font-src * data:; img-src * data:; media-src * blob:; script-src 'self'
+        'unsafe-inline' 'unsafe-eval' *.jwpcdn.com *.cloudflare.com *.twitter.com
+        *.recruiterbox.com *.zdev.net *.zdev.net:8080 *.zomato.com *.tinymce.com *.gstatic.com
+        *.googleapis.com *.google.com *.facebook.com sdk.accountkit.com *.doubleclick.net
+        *.googlesyndication.com *.nr-data.net *.newrelic.com *.google-analytics.com
+        *.akamaihd.net *.zmtcdn.com *.googletagmanager.com *.facebook.net *.googleadservices.com
+        *.cdninstagram.com *.googlesyndication.com *.inspectlet.com *.spreedly.com
+        *.instagram.com *.twimg.com *.mouseflow.com *.usersnap.com d3mvnvhjmkxpjz.cloudfront.net
+        *.serving-sys.com *.sushissl.com *.pubnub.com tsgw.tataelxsi.co.in *.branch.io
+        app.link cdn.poll-maker.com *.ampproject.org *.smartlook.com *.hotjar.com
+        dashboard.hypertrack.io zba.se *.googletagmanager.com *.eff.org cdn.plot.ly
+        *.zedo.com *.bing.com *.criteo.net *.criteo.com; style-src * 'unsafe-inline';
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, PUT, PATCH, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-Zomato-API-Key
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Server:
+      - Zomato
+      Vary:
+      - Accept-Encoding
+      Expires:
+      - Mon, 04 Jun 2018 19:38:14 GMT
+      Pragma:
+      - no-cache
+      Date:
+      - Mon, 04 Jun 2018 19:38:14 GMT
+      Content-Length:
+      - '688'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - AKA_A2=A; expires=Mon, 04-Jun-2018 20:38:14 GMT; path=/; domain=zomato.com;
+        secure; HttpOnly
+      - PHPSESSID=c9a07718495b3767f3882c9fd68948be2eacd156; path=/; domain=.zomato.com;
+        secure; HttpOnly
+      - csrf=4edc22384ef481a7769504fcfccdbf0b; expires=Mon, 04-Jun-2018 20:02:14 GMT;
+        Max-Age=1440; path=/; domain=.zomato.com
+      - fbcity=305; expires=Sat, 01-Dec-2018 19:38:14 GMT; Max-Age=15552000; path=/;
+        domain=.zomato.com; secure
+      - fbtrack=df454dc6cde8bc6404fe3aeab4894958; expires=Thu, 30-May-2019 19:38:14
+        GMT; Max-Age=31104000; path=/; domain=.zomato.com; secure
+      - zl=en; expires=Sat, 01-Dec-2018 19:38:14 GMT; Max-Age=15552000; path=/; domain=.zomato.com;
+        secure
+      Cache-Control:
+      - max-age=0, no-cache, no-store, no-transform
+      Strict-Transport-Security:
+      - max-age=31536000
+    body:
+      encoding: UTF-8
+      string: '{"location_suggestions":[{"id":305,"name":"Denver, CO","country_id":216,"country_name":"United
+        States","country_flag_url":"https:\/\/b.zmtcdn.com\/images\/countries\/flags\/country_216.png","should_experiment_with":0,"discovery_enabled":1,"has_new_ad_format":0,"is_state":0,"state_id":74,"state_name":"Colorado","state_code":"CO"},{"id":9311,"name":"Denver
+        City, TX","country_id":216,"country_name":"United States","country_flag_url":"https:\/\/b.zmtcdn.com\/images\/countries\/flags\/country_216.png","should_experiment_with":0,"discovery_enabled":0,"has_new_ad_format":0,"is_state":0,"state_id":111,"state_name":"Texas","state_code":"TX"}],"status":"success","has_more":0,"has_total":0}'
+    http_version: 
+  recorded_at: Mon, 04 Jun 2018 19:38:14 GMT
+- request:
+    method: get
+    uri: https://developers.zomato.com/api/v2.1/search?count=5&entity_id=305&entity_type=city&order=desc&sort=rating
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.2
+      User-Key:
+      - "<ZOMATO_API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block; report=https://www.zomato.com/cspreport.php
+      Content-Security-Policy:
+      - frame-ancestors https://*.nearbuystag.in https://*.nearbuy.com 'self'; default-src
+        *; font-src * data:; img-src * data:; media-src * blob:; script-src 'self'
+        'unsafe-inline' 'unsafe-eval' *.jwpcdn.com *.cloudflare.com *.twitter.com
+        *.recruiterbox.com *.zdev.net *.zdev.net:8080 *.zomato.com *.tinymce.com *.gstatic.com
+        *.googleapis.com *.google.com *.facebook.com sdk.accountkit.com *.doubleclick.net
+        *.googlesyndication.com *.nr-data.net *.newrelic.com *.google-analytics.com
+        *.akamaihd.net *.zmtcdn.com *.googletagmanager.com *.facebook.net *.googleadservices.com
+        *.cdninstagram.com *.googlesyndication.com *.inspectlet.com *.spreedly.com
+        *.instagram.com *.twimg.com *.mouseflow.com *.usersnap.com d3mvnvhjmkxpjz.cloudfront.net
+        *.serving-sys.com *.sushissl.com *.pubnub.com tsgw.tataelxsi.co.in *.branch.io
+        app.link cdn.poll-maker.com *.ampproject.org *.smartlook.com *.hotjar.com
+        dashboard.hypertrack.io zba.se *.googletagmanager.com *.eff.org cdn.plot.ly
+        *.zedo.com *.bing.com *.criteo.net *.criteo.com; style-src * 'unsafe-inline';
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, PUT, PATCH, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-Zomato-API-Key
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Server:
+      - Zomato
+      Vary:
+      - Accept-Encoding
+      Expires:
+      - Mon, 04 Jun 2018 19:38:14 GMT
+      Pragma:
+      - no-cache
+      Date:
+      - Mon, 04 Jun 2018 19:38:14 GMT
+      Content-Length:
+      - '9135'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - AKA_A2=A; expires=Mon, 04-Jun-2018 20:38:14 GMT; path=/; domain=zomato.com;
+        secure; HttpOnly
+      - PHPSESSID=ab5a8a450b3192ef82d5f4f884248d137bb4407e; path=/; domain=.zomato.com;
+        secure; HttpOnly
+      - csrf=574213d1fefb59185dd05352316d5d90; expires=Mon, 04-Jun-2018 20:02:14 GMT;
+        Max-Age=1440; path=/; domain=.zomato.com
+      - fbcity=305; expires=Sat, 01-Dec-2018 19:38:14 GMT; Max-Age=15552000; path=/;
+        domain=.zomato.com; secure
+      - fbtrack=85ca976fb99f4280bc1f500aadbb57a6; expires=Thu, 30-May-2019 19:38:14
+        GMT; Max-Age=31104000; path=/; domain=.zomato.com; secure
+      - zl=en; expires=Sat, 01-Dec-2018 19:38:14 GMT; Max-Age=15552000; path=/; domain=.zomato.com;
+        secure
+      Cache-Control:
+      - max-age=0, no-cache, no-store, no-transform
+      Strict-Transport-Security:
+      - max-age=31536000
+    body:
+      encoding: UTF-8
+      string: '{"results_found":6992,"results_start":0,"results_shown":5,"restaurants":[{"restaurant":{"R":{"res_id":16973776},"apikey":"<ZOMATO_API_KEY>","id":"16973776","name":"Park
+        Burger","url":"https:\/\/www.zomato.com\/denver\/park-burger-south-pearl-platt-park?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1","location":{"address":"1890
+        South Pearl Street 80210","locality":"South Pearl-Platt Park","city":"Denver","city_id":305,"latitude":"39.6822750000","longitude":"-104.9804472222","zipcode":"80210","country_id":216,"locality_verbose":"South
+        Pearl-Platt Park, Denver"},"switch_to_order_menu":0,"cuisines":"American,
+        Burger","average_cost_for_two":35,"price_range":3,"currency":"$","offers":[],"opentable_support":0,"is_zomato_book_res":0,"mezzo_provider":"OTHER","is_book_form_web_view":0,"book_form_web_view_url":"","book_again_url":"","thumb":"https:\/\/b.zmtcdn.com\/data\/res_imagery\/16973776_CHAIN_643da22496188b0a6597d88022df52c9_c.png?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A","user_rating":{"aggregate_rating":"4.9","rating_text":"Excellent","rating_color":"3F7E00","votes":"257"},"photos_url":"https:\/\/www.zomato.com\/denver\/park-burger-south-pearl-platt-park\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop","menu_url":"https:\/\/www.zomato.com\/denver\/park-burger-south-pearl-platt-park\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop","featured_image":"https:\/\/b.zmtcdn.com\/data\/res_imagery\/16973776_CHAIN_643da22496188b0a6597d88022df52c9_c.png?output-format=webp","has_online_delivery":0,"is_delivering_now":0,"include_bogo_offers":true,"deeplink":"zomato:\/\/restaurant\/16973776","is_table_reservation_supported":0,"has_table_booking":0,"events_url":"https:\/\/www.zomato.com\/denver\/park-burger-south-pearl-platt-park\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1","establishment_types":[]}},{"restaurant":{"R":{"res_id":16973578},"apikey":"<ZOMATO_API_KEY>","id":"16973578","name":"Tocabe
+        - An American Indian Eatery","url":"https:\/\/www.zomato.com\/denver\/tocabe-an-american-indian-eatery-berkeley?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1","location":{"address":"3536
+        West 44th Avenue, Denver 80211","locality":"Berkeley","city":"Denver","city_id":305,"latitude":"39.7765666667","longitude":"-105.0342555556","zipcode":"80211","country_id":216,"locality_verbose":"Berkeley,
+        Denver"},"switch_to_order_menu":0,"cuisines":"American","average_cost_for_two":25,"price_range":2,"currency":"$","offers":[],"opentable_support":0,"is_zomato_book_res":0,"mezzo_provider":"OTHER","is_book_form_web_view":0,"book_form_web_view_url":"","book_again_url":"","thumb":"https:\/\/b.zmtcdn.com\/data\/res_imagery\/16973578_RESTAURANT_b3e5ae6d5c9b5329356410558310f32f_c.png?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A","user_rating":{"aggregate_rating":"4.9","rating_text":"Excellent","rating_color":"3F7E00","votes":"201"},"photos_url":"https:\/\/www.zomato.com\/denver\/tocabe-an-american-indian-eatery-berkeley\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop","menu_url":"https:\/\/www.zomato.com\/denver\/tocabe-an-american-indian-eatery-berkeley\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop","featured_image":"https:\/\/b.zmtcdn.com\/data\/res_imagery\/16973578_RESTAURANT_b3e5ae6d5c9b5329356410558310f32f_c.png","has_online_delivery":0,"is_delivering_now":0,"include_bogo_offers":true,"deeplink":"zomato:\/\/restaurant\/16973578","is_table_reservation_supported":0,"has_table_booking":0,"events_url":"https:\/\/www.zomato.com\/denver\/tocabe-an-american-indian-eatery-berkeley\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1","establishment_types":[]}},{"restaurant":{"R":{"res_id":16967195},"apikey":"<ZOMATO_API_KEY>","id":"16967195","name":"Big
+        Bill''s","url":"https:\/\/www.zomato.com\/denver\/big-bills-centennial?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1","location":{"address":"8243
+        South Holly Street, Centennial, Denver 80122","locality":"Centennial","city":"Denver","city_id":305,"latitude":"39.5668194444","longitude":"-104.9241250000","zipcode":"80122","country_id":216,"locality_verbose":"Centennial,
+        Denver"},"switch_to_order_menu":0,"cuisines":"Italian, Pizza","average_cost_for_two":10,"price_range":1,"currency":"$","offers":[],"opentable_support":0,"is_zomato_book_res":0,"mezzo_provider":"OTHER","is_book_form_web_view":0,"book_form_web_view_url":"","book_again_url":"","thumb":"https:\/\/b.zmtcdn.com\/data\/res_imagery\/16967195_RESTAURANT_28089cfcbf98b4f035e80e07d519faa5_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A","user_rating":{"aggregate_rating":"4.9","rating_text":"Excellent","rating_color":"3F7E00","votes":"181"},"photos_url":"https:\/\/www.zomato.com\/denver\/big-bills-centennial\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop","menu_url":"https:\/\/www.zomato.com\/denver\/big-bills-centennial\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop","featured_image":"https:\/\/b.zmtcdn.com\/data\/res_imagery\/16967195_RESTAURANT_28089cfcbf98b4f035e80e07d519faa5_c.jpg","has_online_delivery":0,"is_delivering_now":0,"include_bogo_offers":true,"deeplink":"zomato:\/\/restaurant\/16967195","is_table_reservation_supported":0,"has_table_booking":0,"events_url":"https:\/\/www.zomato.com\/denver\/big-bills-centennial\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1","establishment_types":[]}},{"restaurant":{"R":{"res_id":16973071},"apikey":"<ZOMATO_API_KEY>","id":"16973071","name":"Osteria
+        Marco","url":"https:\/\/www.zomato.com\/denver\/osteria-marco-lodo?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1","location":{"address":"Larimer
+        Square, 1453 Larimer Street, Denver 80202","locality":"Larimer Square, LoDo","city":"Denver","city_id":305,"latitude":"39.7480166667","longitude":"-104.9988722222","zipcode":"80202","country_id":216,"locality_verbose":"Larimer
+        Square, LoDo, Denver"},"switch_to_order_menu":0,"cuisines":"Italian","average_cost_for_two":25,"price_range":2,"currency":"$","offers":[],"opentable_support":0,"is_zomato_book_res":0,"mezzo_provider":"OTHER","is_book_form_web_view":0,"book_form_web_view_url":"","book_again_url":"","thumb":"","user_rating":{"aggregate_rating":"4.8","rating_text":"Excellent","rating_color":"3F7E00","votes":"445"},"photos_url":"https:\/\/www.zomato.com\/denver\/osteria-marco-lodo\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop","menu_url":"https:\/\/www.zomato.com\/denver\/osteria-marco-lodo\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop","featured_image":"","has_online_delivery":0,"is_delivering_now":0,"include_bogo_offers":true,"deeplink":"zomato:\/\/restaurant\/16973071","is_table_reservation_supported":0,"has_table_booking":0,"events_url":"https:\/\/www.zomato.com\/denver\/osteria-marco-lodo\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1","establishment_types":[]}},{"restaurant":{"R":{"res_id":16972987},"apikey":"<ZOMATO_API_KEY>","id":"16972987","name":"Wokano
+        Asian Bistro","url":"https:\/\/www.zomato.com\/denver\/wokano-asian-bistro-capitol-hill?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1","location":{"address":"1078
+        Ogden Street, Denver 80218","locality":"Capitol Hill","city":"Denver","city_id":305,"latitude":"39.7333972222","longitude":"-104.9750833333","zipcode":"80218","country_id":216,"locality_verbose":"Capitol
+        Hill, Denver"},"switch_to_order_menu":0,"cuisines":"Chinese, Japanese, Thai,
+        Asian","average_cost_for_two":25,"price_range":2,"currency":"$","offers":[],"opentable_support":0,"is_zomato_book_res":0,"mezzo_provider":"OTHER","is_book_form_web_view":0,"book_form_web_view_url":"","book_again_url":"","thumb":"https:\/\/b.zmtcdn.com\/data\/res_imagery\/16972987_RESTAURANT_95b822049dc42025063637db576db009_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A","user_rating":{"aggregate_rating":"4.8","rating_text":"Excellent","rating_color":"3F7E00","votes":"125"},"photos_url":"https:\/\/www.zomato.com\/denver\/wokano-asian-bistro-capitol-hill\/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop","menu_url":"https:\/\/www.zomato.com\/denver\/wokano-asian-bistro-capitol-hill\/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop","featured_image":"https:\/\/b.zmtcdn.com\/data\/res_imagery\/16972987_RESTAURANT_95b822049dc42025063637db576db009_c.jpg","has_online_delivery":0,"is_delivering_now":0,"include_bogo_offers":true,"deeplink":"zomato:\/\/restaurant\/16972987","is_table_reservation_supported":0,"has_table_booking":0,"events_url":"https:\/\/www.zomato.com\/denver\/wokano-asian-bistro-capitol-hill\/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1","establishment_types":[]}}]}'
+    http_version: 
+  recorded_at: Mon, 04 Jun 2018 19:38:14 GMT
 recorded_with: VCR 4.0.0

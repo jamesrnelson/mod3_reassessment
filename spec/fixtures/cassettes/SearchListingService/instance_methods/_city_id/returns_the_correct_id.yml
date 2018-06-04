@@ -53,27 +53,27 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Expires:
-      - Mon, 04 Jun 2018 19:05:05 GMT
+      - Mon, 04 Jun 2018 19:38:17 GMT
       Pragma:
       - no-cache
       Date:
-      - Mon, 04 Jun 2018 19:05:05 GMT
+      - Mon, 04 Jun 2018 19:38:17 GMT
       Content-Length:
       - '688'
       Connection:
       - keep-alive
       Set-Cookie:
-      - AKA_A2=A; expires=Mon, 04-Jun-2018 20:05:05 GMT; path=/; domain=zomato.com;
+      - AKA_A2=A; expires=Mon, 04-Jun-2018 20:38:17 GMT; path=/; domain=zomato.com;
         secure; HttpOnly
-      - PHPSESSID=0fff2d13d96183cb441b37740257aa48a5b0e0ad; path=/; domain=.zomato.com;
+      - PHPSESSID=e77ad7d2f2d0e5b68a6a936253c7444ede691edb; path=/; domain=.zomato.com;
         secure; HttpOnly
-      - csrf=c15f0b2d52255c75a02e80589907d1e0; expires=Mon, 04-Jun-2018 19:29:05 GMT;
+      - csrf=559e9d51887eae3b0bc65962337bfebf; expires=Mon, 04-Jun-2018 20:02:17 GMT;
         Max-Age=1440; path=/; domain=.zomato.com
-      - fbcity=305; expires=Sat, 01-Dec-2018 19:05:05 GMT; Max-Age=15552000; path=/;
+      - fbcity=305; expires=Sat, 01-Dec-2018 19:38:17 GMT; Max-Age=15552000; path=/;
         domain=.zomato.com; secure
-      - fbtrack=22985511f30ff0d1f15b67fabcdd87d3; expires=Thu, 30-May-2019 19:05:05
+      - fbtrack=842e81246929bdbf2f13067e7b7441d5; expires=Thu, 30-May-2019 19:38:17
         GMT; Max-Age=31104000; path=/; domain=.zomato.com; secure
-      - zl=en; expires=Sat, 01-Dec-2018 19:05:05 GMT; Max-Age=15552000; path=/; domain=.zomato.com;
+      - zl=en; expires=Sat, 01-Dec-2018 19:38:17 GMT; Max-Age=15552000; path=/; domain=.zomato.com;
         secure
       Cache-Control:
       - max-age=0, no-cache, no-store, no-transform
@@ -85,5 +85,5 @@ http_interactions:
         States","country_flag_url":"https:\/\/b.zmtcdn.com\/images\/countries\/flags\/country_216.png","should_experiment_with":0,"discovery_enabled":1,"has_new_ad_format":0,"is_state":0,"state_id":74,"state_name":"Colorado","state_code":"CO"},{"id":9311,"name":"Denver
         City, TX","country_id":216,"country_name":"United States","country_flag_url":"https:\/\/b.zmtcdn.com\/images\/countries\/flags\/country_216.png","should_experiment_with":0,"discovery_enabled":0,"has_new_ad_format":0,"is_state":0,"state_id":111,"state_name":"Texas","state_code":"TX"}],"status":"success","has_more":0,"has_total":0}'
     http_version: 
-  recorded_at: Mon, 04 Jun 2018 19:05:05 GMT
+  recorded_at: Mon, 04 Jun 2018 19:38:17 GMT
 recorded_with: VCR 4.0.0

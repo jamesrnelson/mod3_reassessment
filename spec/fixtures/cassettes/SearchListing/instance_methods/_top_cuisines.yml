@@ -53,27 +53,27 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Expires:
-      - Mon, 04 Jun 2018 19:19:12 GMT
+      - Mon, 04 Jun 2018 19:38:15 GMT
       Pragma:
       - no-cache
       Date:
-      - Mon, 04 Jun 2018 19:19:12 GMT
+      - Mon, 04 Jun 2018 19:38:15 GMT
       Content-Length:
       - '688'
       Connection:
       - keep-alive
       Set-Cookie:
-      - AKA_A2=A; expires=Mon, 04-Jun-2018 20:19:12 GMT; path=/; domain=zomato.com;
+      - AKA_A2=A; expires=Mon, 04-Jun-2018 20:38:15 GMT; path=/; domain=zomato.com;
         secure; HttpOnly
-      - PHPSESSID=5d371c84b1533319ba56ae53ce440c57326fbcb6; path=/; domain=.zomato.com;
+      - PHPSESSID=58c4d37e56542db9ca7aa9360ada8a10abf06415; path=/; domain=.zomato.com;
         secure; HttpOnly
-      - csrf=9d9674c4adeb111f13793af1e15ce9a5; expires=Mon, 04-Jun-2018 19:43:12 GMT;
+      - csrf=f394a31ff5cf6d6b59baf2e41167cdc9; expires=Mon, 04-Jun-2018 20:02:15 GMT;
         Max-Age=1440; path=/; domain=.zomato.com
-      - fbcity=305; expires=Sat, 01-Dec-2018 19:19:12 GMT; Max-Age=15552000; path=/;
+      - fbcity=305; expires=Sat, 01-Dec-2018 19:38:15 GMT; Max-Age=15552000; path=/;
         domain=.zomato.com; secure
-      - fbtrack=b70df76e65a439d4e42c72aba0c4a629; expires=Thu, 30-May-2019 19:19:12
+      - fbtrack=6801cd97231463958c55852bb54863b4; expires=Thu, 30-May-2019 19:38:15
         GMT; Max-Age=31104000; path=/; domain=.zomato.com; secure
-      - zl=en; expires=Sat, 01-Dec-2018 19:19:12 GMT; Max-Age=15552000; path=/; domain=.zomato.com;
+      - zl=en; expires=Sat, 01-Dec-2018 19:38:15 GMT; Max-Age=15552000; path=/; domain=.zomato.com;
         secure
       Cache-Control:
       - max-age=0, no-cache, no-store, no-transform
@@ -85,7 +85,7 @@ http_interactions:
         States","country_flag_url":"https:\/\/b.zmtcdn.com\/images\/countries\/flags\/country_216.png","should_experiment_with":0,"discovery_enabled":1,"has_new_ad_format":0,"is_state":0,"state_id":74,"state_name":"Colorado","state_code":"CO"},{"id":9311,"name":"Denver
         City, TX","country_id":216,"country_name":"United States","country_flag_url":"https:\/\/b.zmtcdn.com\/images\/countries\/flags\/country_216.png","should_experiment_with":0,"discovery_enabled":0,"has_new_ad_format":0,"is_state":0,"state_id":111,"state_name":"Texas","state_code":"TX"}],"status":"success","has_more":0,"has_total":0}'
     http_version: 
-  recorded_at: Mon, 04 Jun 2018 19:19:12 GMT
+  recorded_at: Mon, 04 Jun 2018 19:38:15 GMT
 - request:
     method: get
     uri: https://developers.zomato.com/api/v2.1/cuisines?city_id=305
@@ -139,27 +139,25 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Expires:
-      - Mon, 04 Jun 2018 19:19:13 GMT
+      - Mon, 04 Jun 2018 19:38:15 GMT
       Pragma:
       - no-cache
       Date:
-      - Mon, 04 Jun 2018 19:19:13 GMT
+      - Mon, 04 Jun 2018 19:38:15 GMT
       Content-Length:
       - '6024'
       Connection:
       - keep-alive
       Set-Cookie:
-      - AKA_A2=A; expires=Mon, 04-Jun-2018 20:19:13 GMT; path=/; domain=zomato.com;
+      - PHPSESSID=c6b755e593d457a86f29de2f7dc7dcc8db38353d; path=/; domain=.zomato.com;
         secure; HttpOnly
-      - PHPSESSID=225fd31dd4242b24b051a471bee4fccd20c5375c; path=/; domain=.zomato.com;
-        secure; HttpOnly
-      - csrf=dd7d7f9f3a9913f5754c6a4c2dc5f30b; expires=Mon, 04-Jun-2018 19:43:12 GMT;
+      - csrf=862386f6376b3aadc0934140ed908e72; expires=Mon, 04-Jun-2018 20:02:15 GMT;
         Max-Age=1440; path=/; domain=.zomato.com
-      - fbcity=305; expires=Sat, 01-Dec-2018 19:19:12 GMT; Max-Age=15552000; path=/;
+      - fbcity=305; expires=Sat, 01-Dec-2018 19:38:15 GMT; Max-Age=15552000; path=/;
         domain=.zomato.com; secure
-      - fbtrack=f4b8a6fc2b3be469a359292e5c4d2c1b; expires=Thu, 30-May-2019 19:19:12
+      - fbtrack=c99725cfcfb8490cf6d16e88f42c2516; expires=Thu, 30-May-2019 19:38:15
         GMT; Max-Age=31104000; path=/; domain=.zomato.com; secure
-      - zl=en; expires=Sat, 01-Dec-2018 19:19:12 GMT; Max-Age=15552000; path=/; domain=.zomato.com;
+      - zl=en; expires=Sat, 01-Dec-2018 19:38:15 GMT; Max-Age=15552000; path=/; domain=.zomato.com;
         secure
       Cache-Control:
       - max-age=0, no-cache, no-store, no-transform
@@ -184,190 +182,5 @@ http_interactions:
         Food"}},{"cuisine":{"cuisine_id":267,"cuisine_name":"South African"}},{"cuisine":{"cuisine_id":972,"cuisine_name":"South
         American"}},{"cuisine":{"cuisine_id":471,"cuisine_name":"Southern"}},{"cuisine":{"cuisine_id":966,"cuisine_name":"Southwestern"}},{"cuisine":{"cuisine_id":89,"cuisine_name":"Spanish"}},{"cuisine":{"cuisine_id":141,"cuisine_name":"Steak"}},{"cuisine":{"cuisine_id":177,"cuisine_name":"Sushi"}},{"cuisine":{"cuisine_id":997,"cuisine_name":"Taco"}},{"cuisine":{"cuisine_id":190,"cuisine_name":"Taiwanese"}},{"cuisine":{"cuisine_id":179,"cuisine_name":"Tapas"}},{"cuisine":{"cuisine_id":163,"cuisine_name":"Tea"}},{"cuisine":{"cuisine_id":964,"cuisine_name":"Teriyaki"}},{"cuisine":{"cuisine_id":150,"cuisine_name":"Tex-Mex"}},{"cuisine":{"cuisine_id":95,"cuisine_name":"Thai"}},{"cuisine":{"cuisine_id":93,"cuisine_name":"Tibetan"}},{"cuisine":{"cuisine_id":142,"cuisine_name":"Turkish"}},{"cuisine":{"cuisine_id":451,"cuisine_name":"Ukrainian"}},{"cuisine":{"cuisine_id":308,"cuisine_name":"Vegetarian"}},{"cuisine":{"cuisine_id":641,"cuisine_name":"Venezuelan"}},{"cuisine":{"cuisine_id":99,"cuisine_name":"Vietnamese"}}]}'
     http_version: 
-  recorded_at: Mon, 04 Jun 2018 19:19:13 GMT
-- request:
-    method: get
-    uri: https://developers.zomato.com/api/v2.1/cities?q=Denver
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.15.2
-      User-Key:
-      - "<ZOMATO_API_KEY>"
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json
-      X-Content-Type-Options:
-      - nosniff
-      X-Xss-Protection:
-      - 1; mode=block; report=https://www.zomato.com/cspreport.php
-      Content-Security-Policy:
-      - frame-ancestors https://*.nearbuystag.in https://*.nearbuy.com 'self'; default-src
-        *; font-src * data:; img-src * data:; media-src * blob:; script-src 'self'
-        'unsafe-inline' 'unsafe-eval' *.jwpcdn.com *.cloudflare.com *.twitter.com
-        *.recruiterbox.com *.zdev.net *.zdev.net:8080 *.zomato.com *.tinymce.com *.gstatic.com
-        *.googleapis.com *.google.com *.facebook.com sdk.accountkit.com *.doubleclick.net
-        *.googlesyndication.com *.nr-data.net *.newrelic.com *.google-analytics.com
-        *.akamaihd.net *.zmtcdn.com *.googletagmanager.com *.facebook.net *.googleadservices.com
-        *.cdninstagram.com *.googlesyndication.com *.inspectlet.com *.spreedly.com
-        *.instagram.com *.twimg.com *.mouseflow.com *.usersnap.com d3mvnvhjmkxpjz.cloudfront.net
-        *.serving-sys.com *.sushissl.com *.pubnub.com tsgw.tataelxsi.co.in *.branch.io
-        app.link cdn.poll-maker.com *.ampproject.org *.smartlook.com *.hotjar.com
-        dashboard.hypertrack.io zba.se *.googletagmanager.com *.eff.org cdn.plot.ly
-        *.zedo.com *.bing.com *.criteo.net *.criteo.com; style-src * 'unsafe-inline';
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - GET, POST, DELETE, PUT, PATCH, OPTIONS
-      Access-Control-Allow-Headers:
-      - X-Zomato-API-Key
-      Access-Control-Allow-Credentials:
-      - 'true'
-      Server:
-      - Zomato
-      Vary:
-      - Accept-Encoding
-      Expires:
-      - Mon, 04 Jun 2018 19:19:38 GMT
-      Pragma:
-      - no-cache
-      Date:
-      - Mon, 04 Jun 2018 19:19:38 GMT
-      Content-Length:
-      - '688'
-      Connection:
-      - keep-alive
-      Set-Cookie:
-      - AKA_A2=A; expires=Mon, 04-Jun-2018 20:19:38 GMT; path=/; domain=zomato.com;
-        secure; HttpOnly
-      - PHPSESSID=3c1b708cd9f1d096d2c9ae0404f652eb5a08407b; path=/; domain=.zomato.com;
-        secure; HttpOnly
-      - csrf=9b0eda449ec031b3b27e74a88886b8e3; expires=Mon, 04-Jun-2018 19:43:38 GMT;
-        Max-Age=1440; path=/; domain=.zomato.com
-      - fbcity=305; expires=Sat, 01-Dec-2018 19:19:38 GMT; Max-Age=15552000; path=/;
-        domain=.zomato.com; secure
-      - fbtrack=55dffa73ed1e87b3ac370527885aea11; expires=Thu, 30-May-2019 19:19:38
-        GMT; Max-Age=31104000; path=/; domain=.zomato.com; secure
-      - zl=en; expires=Sat, 01-Dec-2018 19:19:38 GMT; Max-Age=15552000; path=/; domain=.zomato.com;
-        secure
-      Cache-Control:
-      - max-age=0, no-cache, no-store, no-transform
-      Strict-Transport-Security:
-      - max-age=31536000
-    body:
-      encoding: UTF-8
-      string: '{"location_suggestions":[{"id":305,"name":"Denver, CO","country_id":216,"country_name":"United
-        States","country_flag_url":"https:\/\/b.zmtcdn.com\/images\/countries\/flags\/country_216.png","should_experiment_with":0,"discovery_enabled":1,"has_new_ad_format":0,"is_state":0,"state_id":74,"state_name":"Colorado","state_code":"CO"},{"id":9311,"name":"Denver
-        City, TX","country_id":216,"country_name":"United States","country_flag_url":"https:\/\/b.zmtcdn.com\/images\/countries\/flags\/country_216.png","should_experiment_with":0,"discovery_enabled":0,"has_new_ad_format":0,"is_state":0,"state_id":111,"state_name":"Texas","state_code":"TX"}],"status":"success","has_more":0,"has_total":0}'
-    http_version: 
-  recorded_at: Mon, 04 Jun 2018 19:19:38 GMT
-- request:
-    method: get
-    uri: https://developers.zomato.com/api/v2.1/cuisines?city_id=305
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.15.2
-      User-Key:
-      - "<ZOMATO_API_KEY>"
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json
-      X-Content-Type-Options:
-      - nosniff
-      X-Xss-Protection:
-      - 1; mode=block; report=https://www.zomato.com/cspreport.php
-      Content-Security-Policy:
-      - frame-ancestors https://*.nearbuystag.in https://*.nearbuy.com 'self'; default-src
-        *; font-src * data:; img-src * data:; media-src * blob:; script-src 'self'
-        'unsafe-inline' 'unsafe-eval' *.jwpcdn.com *.cloudflare.com *.twitter.com
-        *.recruiterbox.com *.zdev.net *.zdev.net:8080 *.zomato.com *.tinymce.com *.gstatic.com
-        *.googleapis.com *.google.com *.facebook.com sdk.accountkit.com *.doubleclick.net
-        *.googlesyndication.com *.nr-data.net *.newrelic.com *.google-analytics.com
-        *.akamaihd.net *.zmtcdn.com *.googletagmanager.com *.facebook.net *.googleadservices.com
-        *.cdninstagram.com *.googlesyndication.com *.inspectlet.com *.spreedly.com
-        *.instagram.com *.twimg.com *.mouseflow.com *.usersnap.com d3mvnvhjmkxpjz.cloudfront.net
-        *.serving-sys.com *.sushissl.com *.pubnub.com tsgw.tataelxsi.co.in *.branch.io
-        app.link cdn.poll-maker.com *.ampproject.org *.smartlook.com *.hotjar.com
-        dashboard.hypertrack.io zba.se *.googletagmanager.com *.eff.org cdn.plot.ly
-        *.zedo.com *.bing.com *.criteo.net *.criteo.com; style-src * 'unsafe-inline';
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Allow-Methods:
-      - GET, POST, DELETE, PUT, PATCH, OPTIONS
-      Access-Control-Allow-Headers:
-      - X-Zomato-API-Key
-      Access-Control-Allow-Credentials:
-      - 'true'
-      Server:
-      - Zomato
-      Vary:
-      - Accept-Encoding
-      Expires:
-      - Mon, 04 Jun 2018 19:19:38 GMT
-      Pragma:
-      - no-cache
-      Date:
-      - Mon, 04 Jun 2018 19:19:38 GMT
-      Content-Length:
-      - '6024'
-      Connection:
-      - keep-alive
-      Set-Cookie:
-      - AKA_A2=A; expires=Mon, 04-Jun-2018 20:19:38 GMT; path=/; domain=zomato.com;
-        secure; HttpOnly
-      - PHPSESSID=4c0c1d58d817e5ee92a6934e65757ec64318691a; path=/; domain=.zomato.com;
-        secure; HttpOnly
-      - csrf=39141df7679354598d59b3c4b5b14c3a; expires=Mon, 04-Jun-2018 19:43:38 GMT;
-        Max-Age=1440; path=/; domain=.zomato.com
-      - fbcity=305; expires=Sat, 01-Dec-2018 19:19:38 GMT; Max-Age=15552000; path=/;
-        domain=.zomato.com; secure
-      - fbtrack=e173c6f9c308b71de3cb1ba577d56c35; expires=Thu, 30-May-2019 19:19:38
-        GMT; Max-Age=31104000; path=/; domain=.zomato.com; secure
-      - zl=en; expires=Sat, 01-Dec-2018 19:19:38 GMT; Max-Age=15552000; path=/; domain=.zomato.com;
-        secure
-      Cache-Control:
-      - max-age=0, no-cache, no-store, no-transform
-      Strict-Transport-Security:
-      - max-age=31536000
-    body:
-      encoding: UTF-8
-      string: '{"cuisines":[{"cuisine":{"cuisine_id":6,"cuisine_name":"Afghani"}},{"cuisine":{"cuisine_id":152,"cuisine_name":"African"}},{"cuisine":{"cuisine_id":1,"cuisine_name":"American"}},{"cuisine":{"cuisine_id":151,"cuisine_name":"Argentine"}},{"cuisine":{"cuisine_id":175,"cuisine_name":"Armenian"}},{"cuisine":{"cuisine_id":3,"cuisine_name":"Asian"}},{"cuisine":{"cuisine_id":131,"cuisine_name":"Australian"}},{"cuisine":{"cuisine_id":193,"cuisine_name":"BBQ"}},{"cuisine":{"cuisine_id":955,"cuisine_name":"Bagels"}},{"cuisine":{"cuisine_id":5,"cuisine_name":"Bakery"}},{"cuisine":{"cuisine_id":227,"cuisine_name":"Bar
-        Food"}},{"cuisine":{"cuisine_id":132,"cuisine_name":"Belgian"}},{"cuisine":{"cuisine_id":270,"cuisine_name":"Beverages"}},{"cuisine":{"cuisine_id":159,"cuisine_name":"Brazilian"}},{"cuisine":{"cuisine_id":182,"cuisine_name":"Breakfast"}},{"cuisine":{"cuisine_id":133,"cuisine_name":"British"}},{"cuisine":{"cuisine_id":247,"cuisine_name":"Bubble
-        Tea"}},{"cuisine":{"cuisine_id":168,"cuisine_name":"Burger"}},{"cuisine":{"cuisine_id":22,"cuisine_name":"Burmese"}},{"cuisine":{"cuisine_id":30,"cuisine_name":"Cafe"}},{"cuisine":{"cuisine_id":491,"cuisine_name":"Cajun"}},{"cuisine":{"cuisine_id":956,"cuisine_name":"California"}},{"cuisine":{"cuisine_id":381,"cuisine_name":"Canadian"}},{"cuisine":{"cuisine_id":121,"cuisine_name":"Cantonese"}},{"cuisine":{"cuisine_id":158,"cuisine_name":"Caribbean"}},{"cuisine":{"cuisine_id":25,"cuisine_name":"Chinese"}},{"cuisine":{"cuisine_id":161,"cuisine_name":"Coffee
-        and Tea"}},{"cuisine":{"cuisine_id":287,"cuisine_name":"Colombian"}},{"cuisine":{"cuisine_id":928,"cuisine_name":"Creole"}},{"cuisine":{"cuisine_id":881,"cuisine_name":"Crepes"}},{"cuisine":{"cuisine_id":153,"cuisine_name":"Cuban"}},{"cuisine":{"cuisine_id":192,"cuisine_name":"Deli"}},{"cuisine":{"cuisine_id":100,"cuisine_name":"Desserts"}},{"cuisine":{"cuisine_id":411,"cuisine_name":"Dim
-        Sum"}},{"cuisine":{"cuisine_id":541,"cuisine_name":"Diner"}},{"cuisine":{"cuisine_id":959,"cuisine_name":"Donuts"}},{"cuisine":{"cuisine_id":268,"cuisine_name":"Drinks
-        Only"}},{"cuisine":{"cuisine_id":651,"cuisine_name":"Eastern European"}},{"cuisine":{"cuisine_id":149,"cuisine_name":"Ethiopian"}},{"cuisine":{"cuisine_id":38,"cuisine_name":"European"}},{"cuisine":{"cuisine_id":40,"cuisine_name":"Fast
-        Food"}},{"cuisine":{"cuisine_id":112,"cuisine_name":"Filipino"}},{"cuisine":{"cuisine_id":45,"cuisine_name":"French"}},{"cuisine":{"cuisine_id":501,"cuisine_name":"Frozen
-        Yogurt"}},{"cuisine":{"cuisine_id":274,"cuisine_name":"Fusion"}},{"cuisine":{"cuisine_id":134,"cuisine_name":"German"}},{"cuisine":{"cuisine_id":156,"cuisine_name":"Greek"}},{"cuisine":{"cuisine_id":521,"cuisine_name":"Hawaiian"}},{"cuisine":{"cuisine_id":143,"cuisine_name":"Healthy
-        Food"}},{"cuisine":{"cuisine_id":233,"cuisine_name":"Ice Cream"}},{"cuisine":{"cuisine_id":148,"cuisine_name":"Indian"}},{"cuisine":{"cuisine_id":154,"cuisine_name":"International"}},{"cuisine":{"cuisine_id":140,"cuisine_name":"Iranian"}},{"cuisine":{"cuisine_id":135,"cuisine_name":"Irish"}},{"cuisine":{"cuisine_id":55,"cuisine_name":"Italian"}},{"cuisine":{"cuisine_id":207,"cuisine_name":"Jamaican"}},{"cuisine":{"cuisine_id":60,"cuisine_name":"Japanese"}},{"cuisine":{"cuisine_id":164,"cuisine_name":"Juices"}},{"cuisine":{"cuisine_id":178,"cuisine_name":"Kebab"}},{"cuisine":{"cuisine_id":67,"cuisine_name":"Korean"}},{"cuisine":{"cuisine_id":136,"cuisine_name":"Latin
-        American"}},{"cuisine":{"cuisine_id":66,"cuisine_name":"Lebanese"}},{"cuisine":{"cuisine_id":69,"cuisine_name":"Malaysian"}},{"cuisine":{"cuisine_id":70,"cuisine_name":"Mediterranean"}},{"cuisine":{"cuisine_id":73,"cuisine_name":"Mexican"}},{"cuisine":{"cuisine_id":137,"cuisine_name":"Middle
-        Eastern"}},{"cuisine":{"cuisine_id":74,"cuisine_name":"Mongolian"}},{"cuisine":{"cuisine_id":147,"cuisine_name":"Moroccan"}},{"cuisine":{"cuisine_id":117,"cuisine_name":"Nepalese"}},{"cuisine":{"cuisine_id":996,"cuisine_name":"New
-        American"}},{"cuisine":{"cuisine_id":995,"cuisine_name":"New Mexican"}},{"cuisine":{"cuisine_id":961,"cuisine_name":"New
-        Zealand"}},{"cuisine":{"cuisine_id":139,"cuisine_name":"Pakistani"}},{"cuisine":{"cuisine_id":183,"cuisine_name":"Patisserie"}},{"cuisine":{"cuisine_id":162,"cuisine_name":"Peruvian"}},{"cuisine":{"cuisine_id":82,"cuisine_name":"Pizza"}},{"cuisine":{"cuisine_id":219,"cuisine_name":"Polish"}},{"cuisine":{"cuisine_id":983,"cuisine_name":"Pub
-        Food"}},{"cuisine":{"cuisine_id":320,"cuisine_name":"Ramen"}},{"cuisine":{"cuisine_id":84,"cuisine_name":"Russian"}},{"cuisine":{"cuisine_id":998,"cuisine_name":"Salad"}},{"cuisine":{"cuisine_id":601,"cuisine_name":"Salvadorean"}},{"cuisine":{"cuisine_id":304,"cuisine_name":"Sandwich"}},{"cuisine":{"cuisine_id":83,"cuisine_name":"Seafood"}},{"cuisine":{"cuisine_id":611,"cuisine_name":"Somali"}},{"cuisine":{"cuisine_id":461,"cuisine_name":"Soul
-        Food"}},{"cuisine":{"cuisine_id":267,"cuisine_name":"South African"}},{"cuisine":{"cuisine_id":972,"cuisine_name":"South
-        American"}},{"cuisine":{"cuisine_id":471,"cuisine_name":"Southern"}},{"cuisine":{"cuisine_id":966,"cuisine_name":"Southwestern"}},{"cuisine":{"cuisine_id":89,"cuisine_name":"Spanish"}},{"cuisine":{"cuisine_id":141,"cuisine_name":"Steak"}},{"cuisine":{"cuisine_id":177,"cuisine_name":"Sushi"}},{"cuisine":{"cuisine_id":997,"cuisine_name":"Taco"}},{"cuisine":{"cuisine_id":190,"cuisine_name":"Taiwanese"}},{"cuisine":{"cuisine_id":179,"cuisine_name":"Tapas"}},{"cuisine":{"cuisine_id":163,"cuisine_name":"Tea"}},{"cuisine":{"cuisine_id":964,"cuisine_name":"Teriyaki"}},{"cuisine":{"cuisine_id":150,"cuisine_name":"Tex-Mex"}},{"cuisine":{"cuisine_id":95,"cuisine_name":"Thai"}},{"cuisine":{"cuisine_id":93,"cuisine_name":"Tibetan"}},{"cuisine":{"cuisine_id":142,"cuisine_name":"Turkish"}},{"cuisine":{"cuisine_id":451,"cuisine_name":"Ukrainian"}},{"cuisine":{"cuisine_id":308,"cuisine_name":"Vegetarian"}},{"cuisine":{"cuisine_id":641,"cuisine_name":"Venezuelan"}},{"cuisine":{"cuisine_id":99,"cuisine_name":"Vietnamese"}}]}'
-    http_version: 
-  recorded_at: Mon, 04 Jun 2018 19:19:38 GMT
+  recorded_at: Mon, 04 Jun 2018 19:38:15 GMT
 recorded_with: VCR 4.0.0
