@@ -1,11 +1,14 @@
 <h1>Top Cuisines</h1>
 <% @cuisines.each do |cuisine| %>
-  <p class="cuisine"><%= cuisine.type %></p>
+<ul>
+  <li class="cuisine"><%= cuisine.type %></li>
+
+</ul>
 <% end %>
 <h1>Top Restaurants</h1>
 <% @restaurants.each do |restaurant| %>
   <ul class="restaurant">
-    <li class="name"><%= restaurant.name %></li>
+    <h4 class="name"><%= restaurant.name %></h4>
     <li class="address"><%= restaurant.address %></li>
     <li class="locality"><%= restaurant.locality %></li>
   </ul>
