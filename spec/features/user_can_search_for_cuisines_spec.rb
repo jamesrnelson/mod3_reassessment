@@ -9,6 +9,7 @@ describe 'User' do
       fill_in :search, with: 'Denver'
       click_on 'Search'
       # And I fill in a search box with "Denver" and click "search"
+      expect(current_path).to eq('/search')
       # Then my current path should be "/search" (ignoring params)
       expect(page).to have_css('.cuisine', count: 5)
       expect(page).to have_css('.restaurant', count: 5)
