@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'User' do
   context 'enters Denver in the search' do
-    it 'should send back information about cuisines and restaurants' do
+    it 'should send back information about cuisines and restaurants', vcr: true do
       visit root_path
       # As a user
       # When I visit "/"

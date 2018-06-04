@@ -1,0 +1,89 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://developers.zomato.com/api/v2.1/cities?q=Denver
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.2
+      User-Key:
+      - "<ZOMATO_API_KEY>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block; report=https://www.zomato.com/cspreport.php
+      Content-Security-Policy:
+      - frame-ancestors https://*.nearbuystag.in https://*.nearbuy.com 'self'; default-src
+        *; font-src * data:; img-src * data:; media-src * blob:; script-src 'self'
+        'unsafe-inline' 'unsafe-eval' *.jwpcdn.com *.cloudflare.com *.twitter.com
+        *.recruiterbox.com *.zdev.net *.zdev.net:8080 *.zomato.com *.tinymce.com *.gstatic.com
+        *.googleapis.com *.google.com *.facebook.com sdk.accountkit.com *.doubleclick.net
+        *.googlesyndication.com *.nr-data.net *.newrelic.com *.google-analytics.com
+        *.akamaihd.net *.zmtcdn.com *.googletagmanager.com *.facebook.net *.googleadservices.com
+        *.cdninstagram.com *.googlesyndication.com *.inspectlet.com *.spreedly.com
+        *.instagram.com *.twimg.com *.mouseflow.com *.usersnap.com d3mvnvhjmkxpjz.cloudfront.net
+        *.serving-sys.com *.sushissl.com *.pubnub.com tsgw.tataelxsi.co.in *.branch.io
+        app.link cdn.poll-maker.com *.ampproject.org *.smartlook.com *.hotjar.com
+        dashboard.hypertrack.io zba.se *.googletagmanager.com *.eff.org cdn.plot.ly
+        *.zedo.com *.bing.com *.criteo.net *.criteo.com; style-src * 'unsafe-inline';
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, PUT, PATCH, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-Zomato-API-Key
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Server:
+      - Zomato
+      Vary:
+      - Accept-Encoding
+      Expires:
+      - Mon, 04 Jun 2018 19:05:05 GMT
+      Pragma:
+      - no-cache
+      Date:
+      - Mon, 04 Jun 2018 19:05:05 GMT
+      Content-Length:
+      - '688'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - AKA_A2=A; expires=Mon, 04-Jun-2018 20:05:05 GMT; path=/; domain=zomato.com;
+        secure; HttpOnly
+      - PHPSESSID=0fff2d13d96183cb441b37740257aa48a5b0e0ad; path=/; domain=.zomato.com;
+        secure; HttpOnly
+      - csrf=c15f0b2d52255c75a02e80589907d1e0; expires=Mon, 04-Jun-2018 19:29:05 GMT;
+        Max-Age=1440; path=/; domain=.zomato.com
+      - fbcity=305; expires=Sat, 01-Dec-2018 19:05:05 GMT; Max-Age=15552000; path=/;
+        domain=.zomato.com; secure
+      - fbtrack=22985511f30ff0d1f15b67fabcdd87d3; expires=Thu, 30-May-2019 19:05:05
+        GMT; Max-Age=31104000; path=/; domain=.zomato.com; secure
+      - zl=en; expires=Sat, 01-Dec-2018 19:05:05 GMT; Max-Age=15552000; path=/; domain=.zomato.com;
+        secure
+      Cache-Control:
+      - max-age=0, no-cache, no-store, no-transform
+      Strict-Transport-Security:
+      - max-age=31536000
+    body:
+      encoding: UTF-8
+      string: '{"location_suggestions":[{"id":305,"name":"Denver, CO","country_id":216,"country_name":"United
+        States","country_flag_url":"https:\/\/b.zmtcdn.com\/images\/countries\/flags\/country_216.png","should_experiment_with":0,"discovery_enabled":1,"has_new_ad_format":0,"is_state":0,"state_id":74,"state_name":"Colorado","state_code":"CO"},{"id":9311,"name":"Denver
+        City, TX","country_id":216,"country_name":"United States","country_flag_url":"https:\/\/b.zmtcdn.com\/images\/countries\/flags\/country_216.png","should_experiment_with":0,"discovery_enabled":0,"has_new_ad_format":0,"is_state":0,"state_id":111,"state_name":"Texas","state_code":"TX"}],"status":"success","has_more":0,"has_total":0}'
+    http_version: 
+  recorded_at: Mon, 04 Jun 2018 19:05:05 GMT
+recorded_with: VCR 4.0.0
